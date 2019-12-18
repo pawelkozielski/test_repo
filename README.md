@@ -1,12 +1,12 @@
 # test_repo
-- git checkout featureC
-- robię robotę
-- git add .
-- git commit "ble ble"
-- git push
-- otwieram pull request na bitbuckecie/githubie
-- w międzyczasie w tym miejscu dodajesz commity w odpowiedzi na uwagi reviewerów a więc robisz taką iterację po
-- git add . / git commit / git push aż reviewerzy są zadowoleni i dopiero wjeżdzasz z resztą tematów
+``` git checkout featureC 
+ git add .
+ git commit "ble ble"
+ git push
+```
+opening pull request
+iterating over git add . / git commit / git push in order to fullfill reviewers points
+```
 - git checkout master
 - git pull
 - git checkout branch
@@ -16,8 +16,11 @@
 - git add {conflicted_files_resolved}
 - git rebase --continue
 - git pull --force
-- mergujesz brancha z masterem na githubie/bitbuckecie
-- dobrze sobie odświeżyć lokalnego mastera
+```
+merge your branch with master on gitbub/bitbucket
+its good to refresh update local master repository
+```
 - git fetch
 - git checkout master
 - git pull
+```
