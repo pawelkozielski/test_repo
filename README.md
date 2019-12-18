@@ -1,0 +1,23 @@
+# test_repo
+- git checkout featureC
+- robię robotę
+- git add .
+- git commit "ble ble"
+- git push
+- otwieram pull request na bitbuckecie/githubie
+- w międzyczasie w tym miejscu dodajesz commity w odpowiedzi na uwagi reviewerów a więc robisz taką iterację po
+- git add . / git commit / git push aż reviewerzy są zadowoleni i dopiero wjeżdzasz z resztą tematów
+- git checkout master
+- git pull
+- git checkout branch
+- zakładamy że pracujemy tylko my na branchu i jesteśmy up-to-date
+- git rebase master
+- rozwiązujemy konflikty na poziomie plików
+- git add {conflicted_files_resolved}
+- git rebase --continue
+- git pull --force
+- mergujesz brancha z masterem na githubie/bitbuckecie
+- dobrze sobie odświeżyć lokalnego mastera
+- git fetch
+- git checkout master
+- git pull
