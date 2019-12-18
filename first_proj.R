@@ -3,4 +3,6 @@ x <- "first project"
 y <- "second commit"
 t <- "third commit"
 z <- "four commit"
-print(paste(x, y, t, z, sep="/"))
+x <- "first commit for featureB"
+print(paste(x, y, t, z, x, sep="_"))
+
