@@ -1,4 +1,5 @@
 
 x <- "first project"
 y <- "second commit"
-print(paste(x, " ", y, sep=""))
+t <- "third commit"
+print(paste(x, y, t, sep=" "))
